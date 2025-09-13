@@ -1,19 +1,19 @@
-ویژگی‌های بازی
+Game Features
 
-- تولید عدد تصادفی بین ۱ تا ۱۰۰
-- ۵ نوبت حدس اولیه
-- سیستم پاداش برای حدس‌های نزدیک (+۱ نوبت)
-- راهنمایی‌های هوشمند («بزرگ‌تره» / «کوچیک‌تره»)
-- بررسی اعتبار ورودی کاربر
-- رابط کاربری ساده و روان
+· Generates a random number between 1 and 100
+· 5 initial guessing attempts
+· Reward system for close guesses (+1 extra attempt)
+· Smart hints ("Too big" / "Too small")
+· User input validation
+· Simple and smooth user interface
 
-روش بازی
+How to Play
 
-1. برنامه یک عدد تصادفی بین ۱ تا ۱۰۰ تولید می‌کند
-2. شما باید عدد را در حداکثر ۵ نوبت حدس بزنید
-3. بعد از هر حدس راهنمایی دریافت می‌کنید:
-   · too big → حدس شما بزرگ‌تر از عدد هدف است
-   · too small → حدس شما کوچک‌تر از عدد هدف است
-   · so close → حدس شما بسیار نزدیک است (+۱ نوبت پاداش)
-   · you win → برنده شدید!
-4. اگر در ۵ نوبت حدس نزنید، بازی را می‌بازید
+1. The program generates a random number between 1 and 100.
+2. You must guess the number within a maximum of 5 attempts.
+3. After each guess, you receive a hint:
+   · Too big → Your guess is larger than the target number.
+   · Too small → Your guess is smaller than the target number.
+   · So close → Your guess is very close (+1 extra attempt rewarded).
+   · You win → You've won!
+4. If you fail to guess correctly within 5 attempts, you lose the game.
